@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<title>UPay</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="res/titlebar.png" />
+<link rel="stylesheet" href="css/1.css">
+<body>
+<div class="a3-top">
+<div class="a3-bar a3-card-2 a3-animate-top a3-white" id="myNavbar">
+<a class="a3-bar-item a3-button a3-hover-black a3-hide-medium a3-hide-large a3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+<i class="fa fa-bars"></i>
+</a>
+<a href="#app" class="a3-bar-item a3-button a3-hide-small"><i class="fa fa-user"></i> APP</a>
+<a href="#team" class="a3-bar-item a3-button a3-hide-small"><i class="fa fa-th"></i> TEAM</a>
+<a href="#sprints" class="a3-bar-item a3-button a3-hide-small"><i class="fa fa-envelope"></i> SPRINTS</a>
+</div>
+<div id="navMenu" class="a3-bar-block a3-white a3-hide a3-hide-large a3-hide-medium">
+<a href="#app" class="a3-bar-item a3-button" onclick="toggleFunction()">APP</a>
+<a href="#team" class="a3-bar-item a3-button" onclick="toggleFunction()">TEAM</a>
+<a href="#sprints" class="a3-bar-item a3-button" onclick="toggleFunction()">SPRINTS</a>
+</div>
+</div>
+<div class="bgimg-1 a3-display-container a3-opacity-min" id="app">
+<div class="a3-display-middle" style="white-space:nowrap;">
+<span class="a3-center a3-padding-large a3-black a3-xxxlarge a3-wide a3-animate-opacity">UPay</span>
+</div>
+</div>
+<div class="a3-content a3-container a3-padding-64" id="about">
+<h3 class="a3-center">A simple personal finance solution</h3>
+<p class="a3-center"></p>
+<div class="a3-row">
+<div class="a3-col m6 a3-center a3-padding-large">
+<span>
+<img src="res/proto.jpg" class="a3-round a3-image" alt="The app" height="500" width="333">
+<p><b>Photo provided by <a href="https://monzo.com/">Monzo</a></b></p>
+</span>
+</div>
+<div class="a3-col m6 a3-padding-large">
+<h4>What is Upay?</h4>
+<p style="text-align:justify">Upay is a revolutionary new approach to bill splitting. While traditional bill splitting apps will only allow their users to calculate how much each person owes and keep track of an event,  Upay allows the users to pay each other back immediately with integrated payment solutions. Upay can be used both in Sweden and around the world with multiple currency options to end the constant conversions needed while travelling. Finally, Upay brings advanced technological solutions to make adding payments as seamless as possible such as receipt scanning and a full history of bills and payments.</p>
+</div>
+</div>
+</div>
+<div class="bgimg-2 a3-display-container a3-opacity-min" id="team">
+<div class="a3-display-middle">
+<span class="a3-center a3-padding-large a3-black a3-large a3-wide a3-animate-opacity">TEAM</span>
+</div>
+</div>
+<div class="a3-content a3-container a3-padding-32">
+<div class="row">
+<div class="column">
+<div class="content" style="text-align: center;">
+<img src="res/team-pix/raz.PNG" style="width:100%;border-radius:15%">
+<h3>Raz</h3>
+<p>Product Owner</p>
+</div>
+</div>
+<div class="column">
+<div class="content" style="text-align: center;">
+<img src="res/team-pix/sandra.PNG" style="width:100%;border-radius:15%">
+<h3>Sandra</h3>
+<p>Scrum Master</p>
+</div>
+</div>
+<div class="column">
+<div class="content" style="text-align: center;">
+<img src="res/team-pix/ayub.PNG" style="width:100%;border-radius:15%">
+<h3>Ayub</h3>
+<p>Team Member</p>
+</div>
+</div>
+<div class="column">
+<div class="content" style="text-align: center;">
+<img src="res/team-pix/elliot.PNG" style="width:100%;border-radius:15%">
+<h3>Elliot</h3>
+<p>Team Member</p>
+</div>
+</div>
+<div class="column">
+<div class="content" style="text-align: center;">
+<img src="res/team-pix/joakim.PNG" style="width:100%;border-radius:15%">
+<h3>Joakim</h3>
+<p>Team Member</p>
+</div>
+</div>
+<div class="column">
+<div class="content" style="text-align: center;">
+<img src="res/team-pix/tanveer.PNG" style="width:100%;border-radius:15%">
+<h3>Tanveer</h3>
+<p>Team Member</p>
+</div>
+</div>
+<div class="column">
+<div class="content" style="text-align: center;">
+<img src="res/team-pix/laila.PNG" style="width:100%;border-radius:15%">
+<h3>Laila</h3>
+<p>Team Member</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bgimg-3 a3-display-container a3-opacity-min" id="sprints">
+<div class="a3-display-middle">
+<span class="a3-center a3-padding-large a3-black a3-large a3-wide a3-animate-opacity">SPRINTS</span>
+</div>
+</div>
+<div class="a3-content a3-container a3-padding-64">
+<h2>Sprint Retrospectives</h2>
+<p>TBD: sprints section here</p>
+</div>
+<footer class="a3-center a3-black a3-padding-64">
+<p>The ANDROMEDA Group</p>
+</footer>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+		var x = document.getElementById("navMenu");
+		if (x.className.indexOf("a3-show") == -1) {
+				x.className += " a3-show";
+		} else {
+				x.className = x.className.replace(" a3-show", "");
+		}
+}
+</script>
+</body>
+</html>
